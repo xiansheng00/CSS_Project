@@ -1,0 +1,25 @@
+.list1 ul{
+	overflow: hidden;
+}
+
+.list1 li{
+	float: left;
+	list-style-type: none;
+}
+
+.list1 a{
+	display: block;
+	padding: 0 16px;
+	text-decoration: none;
+	color: #333;
+}
+
+.list1 li + li a{
+	border-left: 1px solid #eee;
+}
+
+.list1 a:hover{
+	color: #f00;
+}
+
+
